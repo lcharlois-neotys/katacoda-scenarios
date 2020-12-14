@@ -17,6 +17,10 @@
         "title": "Step 3",
         "text": "step3.md",
         "code": "step3-foreground.sh"
+      },
+      {
+        "title": "Step 4",
+        "text": "step4.md"
       }
     ],
     "intro": {
