@@ -16,7 +16,7 @@
       {
         "title": "Step 3",
         "text": "step3.md",
-        "code": "step3-foreground.sh"
+        "courseData": "step3-foreground.sh"
       }
     ],
     "intro": {
