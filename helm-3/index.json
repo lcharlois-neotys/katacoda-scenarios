@@ -18,6 +18,11 @@
         "text": "step3.md"
       }
     ],
+    "assets": {
+      "host01": [
+          {"file": "get-url.sh", "target": "/root", "chmod": "+x"}
+      ]
+    },
     "intro": {
       "text": "intro.md",
       "code": "foreground.sh"
