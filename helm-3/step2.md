@@ -21,5 +21,15 @@ Let's try will the nginx chart.
 
 `helm install my-release bitnami/nginx`{{execute}}
 
+## Checking the deployment
+
+You can check that nginx has been deployed by retrieving pods from kubernetes.
+
+
+Run the following command and wait for the pod to be 'Running'.
+
+`kubectl get pods -w`{{execute}}
+
+
 
 
