@@ -1,0 +1,63 @@
+{
+  "title": "A quick introduction to Helm 3",
+  "description": "A quick introduction to Helm 3",
+  "difficulty": "Beginner",
+  "time": "20 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Installing Helm",
+        "text": "step1.md"
+      },
+      {
+        "title": "Deploying a nginx server",
+        "text": "step2.md",
+        "verify": "verify2.sh"
+      },
+      {
+        "title": "Accessing the deployed server",
+        "text": "step3.md",
+        "code": "step3-foreground.sh"
+      },
+      {
+        "title": "Helm values",
+        "text": "step4.md",
+        "verify": "verify4.sh"
+      },
+      {
+        "title": "Accessing the deployed application",
+        "text": "step5.md"
+      },
+      {
+        "title": "Usefull commands",
+        "text": "step6.md"
+      },
+      {
+        "title": "Namespaces",
+        "text": "step7.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "get-url.sh",
+          "target": "/opt",
+          "chmod": "+x"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "openshift-4-6"
+  }
+}
