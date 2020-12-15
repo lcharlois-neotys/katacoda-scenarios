@@ -5,13 +5,13 @@ Most of the time, notes give you a set of command to execute in order to finaliz
 
 `helm get notes my-release`{{execute}}
 
-The notes returned in this particular case are 
+The notes returned in this particular case cannot be used in its current state because of the specificty of the Katacoda environment. 
 
 # Displaying effective yaml files
 
-Helm use a template engine to build kubernetes yaml description files and then deploy these files on kubernetes.
-You retrieve the effective yaml file deployed on kubernetes using `helm get manifest`.
-Let's try !
+Helm uses a template engine to build kubernetes yaml description files and then deploy these files on kubernetes.
+You can retrieve the effective yaml file deployed on kubernetes using `helm get manifest`.
+Let's try this !
 
 `helm get manifest my-release`{{execute}}
 

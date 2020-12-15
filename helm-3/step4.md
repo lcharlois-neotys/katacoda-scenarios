@@ -1,7 +1,7 @@
 # Getting the values
 
-A release is based created from a Helm chart and can be customized using *values*.
-Let's see what are the current *values* of our release.
+A release is created from a Helm chart and can be customized using *values*.
+Let's see what the current *values* of our release are.
 
 `helm get values my-release`{{execute}}
 
@@ -11,7 +11,7 @@ As you can see, this release use no values.
 
 Values is a set of parameter that you can set to change the configuration of the deployed application.
 
-The chart we use in this scenario, allow to define values to deploy a static site from git (as documented [here](https://artifacthub.io/packages/helm/bitnami/nginx#deploying-your-custom-web-application)).
+The chart we use in this scenario, allows us to define values for deploying a static site from git (as documented [here](https://artifacthub.io/packages/helm/bitnami/nginx#deploying-your-custom-web-application)).
 
 Let's create a file named `nginx-values.yaml`.
 

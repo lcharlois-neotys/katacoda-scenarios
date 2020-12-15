@@ -1,4 +1,4 @@
-Until now all operation done using `helm` has been executed on the kubernetes *default* namespace.
+All previous `helm` operations have been executed on the kubernetes default *namespace*.
 Let's see how to use a custom namespace.
 
 # Create a namespace
@@ -26,6 +26,6 @@ You must tell kubectl on which namespace it should search.
 In the same way, if you run `helm uninstall another-release`{{execute}} it won't work now.
 
 As for `kubectl`, by default it uses the *default* namespace and you must tell to helm which namespace to use.
-Let's try:
+Let's try it:
 
 `helm uninstall another-release -n nginx-server`{{execute}}
