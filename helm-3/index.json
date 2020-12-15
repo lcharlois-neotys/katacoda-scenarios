@@ -48,7 +48,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "openshift-3-11",
-    "port": 8443
+    "imageid": "kubernetes-cluster-running:1.18"
   }
 }
