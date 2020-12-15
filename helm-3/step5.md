@@ -1,18 +1,5 @@
-# Retrieving release notes
+# Accessing nginx
 
-`helm get notes my-release`{{execute}}
+Now you can check the deployed application:
 
-# Displaying effective yaml files
-
-`helm get manifest my-release`{{execute}}
-
-
-# Listing deployed charts
-
-`helm list`{{execute}}
-
-# Uninstalling release
-
-`helm uninstall my-release`{{execute}}
-
-You can check that `helm list`{{execute}} doesn't return your release anymore.
+`echo $NGINX_URL`{{execute}}

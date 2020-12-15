@@ -11,7 +11,8 @@
       },
       {
         "title": "Deploying a nginx server",
-        "text": "step2.md"
+        "text": "step2.md",
+        "verify": "verify2.sh"
       },
       {
         "title": "Accessing the deployed server",
@@ -19,12 +20,17 @@
         "code": "step3-foreground.sh"
       },
       {
-        "title": "Step 4",
-        "text": "step4.md"
+        "title": "Helm values",
+        "text": "step4.md",
+        "verify": "verify4.sh"
+      },
+      {
+        "title": "Accessing the deployed application",
+        "text": "step5.md"
       },
       {
         "title": "Usefull commands",
-        "text": "step5.md"
+        "text": "step6.md"
       }
     ],
     "intro": {
