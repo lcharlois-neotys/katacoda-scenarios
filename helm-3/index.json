@@ -48,7 +48,7 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "openshift-4-6",
+    "imageid": "openshift-3-11",
     "port": 8443
   }
 }
