@@ -32,10 +32,9 @@ That's one of the purpose of the `helm upgrade` command.
 
 `helm upgrade my-release bitnami/nginx -f nginx-values.yaml`{{execute}}
 
+Run the following command and wait for the pod to be 'Running'.
 
-Now you can check the deployed application:
-
-`echo $NGINX_URL`{{execute}}
+`kubectl get pods`{{execute}}
 
 
 

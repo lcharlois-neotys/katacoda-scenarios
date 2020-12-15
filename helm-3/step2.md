@@ -28,7 +28,7 @@ You can check that nginx has been deployed by retrieving pods from kubernetes.
 
 Run the following command and wait for the pod to be 'Running'.
 
-`kubectl get pods -w`{{execute}}
+`kubectl get pods`{{execute}}
 
 
 
