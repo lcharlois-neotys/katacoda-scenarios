@@ -9,6 +9,10 @@ The notes returned in this particular case are
 
 # Displaying effective yaml files
 
+Helm use a template engine to build kubernetes yaml description files and then deploy these files on kubernetes.
+You retrieve the effective yaml file deployed on kubernetes using `helm get manifest`.
+Let's try !
+
 `helm get manifest my-release`{{execute}}
 
 # Listing deployed charts
