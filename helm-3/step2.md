@@ -17,7 +17,7 @@ In this scenario you will use the [Bitnami repository](https://github.com/bitnam
 Now you can install a chart from the Bitnami repository.
 When you [install a chart](https://helm.sh/docs/intro/using_helm/#helm-install-installing-a-package) you should give it a release name
 
-Let's try will the nginx chart.
+Let's try with the nginx chart.
 
 `helm install my-release bitnami/nginx`{{execute}}
 
