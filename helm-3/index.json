@@ -6,15 +6,15 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Installing Helm",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Deploying a nginx server",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Accessing the deployed server",
         "text": "step3.md",
         "code": "step3-foreground.sh"
       },
